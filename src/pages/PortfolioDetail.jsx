@@ -30,18 +30,29 @@ export default function PortfolioDetail() {
 
       {/* Banner area */}
       <div className="portfolio-top">
-        <div
-          className="portfolio-banner"
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: '#555',
-            fontSize: '1.125rem',
-          }}
-        >
-          Project Banner / Video
-        </div>
+        {project.video ? (
+          <video
+            src={project.video}
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="portfolio-banner"
+          />
+        ) : (
+          <div
+            className="portfolio-banner"
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              color: '#555',
+              fontSize: '1.125rem',
+            }}
+          >
+            Project Banner / Video
+          </div>
+        )}
         <h2>{project.title}</h2>
       </div>
 
@@ -66,15 +77,6 @@ export default function PortfolioDetail() {
         </div>
       </div>
 
-      {/* Detail Sections */}
-      {project.sections.map((section, i) => (
-        <div className="part" key={i}>
-          <h3 className="part-header">{section.title}</h3>
-          {section.content.map((paragraph, j) => (
-            <p key={j}>{paragraph}</p>
-          ))}
-        </div>
-      ))}
     </div>
   )
 }

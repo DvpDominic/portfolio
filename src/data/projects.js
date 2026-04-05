@@ -1,17 +1,18 @@
 const projects = [
   {
     id: 'project-1',
-    title: 'Project One',
-    year: '2025',
-    role: 'Full Stack Developer',
-    engine: 'React / Node.js',
+    video: '/videos/project1.mp4',
+    title: 'Upside down',
+    year: '2026',
+    role: 'Technical Artist',
+    engine: 'Unreal Engine 5',
     shortDescription:
       'A brief description of your first project. Replace this with actual project details.',
     description: [
       'This is a detailed description of your first project. Explain what the project is about, what problem it solves, and what technologies you used.',
       'Add more paragraphs to describe different aspects of the project.',
     ],
-    tags: ['React', 'Node.js', 'MongoDB'],
+    tags: ['Unreal Engine'],
     sections: [
       {
         title: 'Introduction',

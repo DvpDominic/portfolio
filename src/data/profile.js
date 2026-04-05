@@ -2,7 +2,7 @@ const profile = {
   name: 'Darshan Parmar',
   title: 'Game Developer',
   about: [
-    "<strong> Techncal artist and game developer</strong> with 5+ years of experience in building games. Passionate about making games that people love to play. Focused on writing efficient code, bridging the gap between artists and programmers, integrate assets into game scenes, optimizing games, and tackling challenges in game development",
+    "<strong> Techncal artist and game developer</strong> with 5+ years of experience in building games. Passionate about making games that people love to play. Focused on writing efficient code, bridging the gap between artists and programmers, make tools to help development, integrate assets into game scenes, optimizing games, and tackling challenges in game development",
   ],
   social: {
     linkedin: {

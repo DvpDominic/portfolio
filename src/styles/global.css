@@ -203,7 +203,6 @@ h2 {
 }
 
 .experience video {
-  filter: grayscale(0.5);
   width: 100%;
 }
 
@@ -211,9 +210,6 @@ h2 {
   justify-content: stretch;
 }
 
-.experience button.job-card:hover video {
-  filter: grayscale(0);
-}
 
 .experience button.job-card:hover {
   cursor: pointer;

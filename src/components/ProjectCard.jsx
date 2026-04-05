@@ -10,21 +10,33 @@ export default function ProjectCard({ project }) {
       onClick={() => animatedNavigate(`/portfolio/${project.id}`, 'forward')}
       type="button"
     >
-      <div className="job-card-video video-loaded">
-        <div
-          style={{
-            width: '100%',
-            aspectRatio: '16/9',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            backgroundColor: '#252525',
-            color: '#555',
-            fontSize: '0.875rem',
-          }}
-        >
-          Project Preview
-        </div>
+      <div className={`job-card-video${project.video ? '' : ' video-loaded'}`}>
+        {project.video ? (
+          <video
+            src={project.video}
+            autoPlay
+            muted
+            loop
+            playsInline
+            onLoadedData={(e) => e.target.parentElement.classList.add('video-loaded')}
+            style={{ width: '100%', display: 'block' }}
+          />
+        ) : (
+          <div
+            style={{
+              width: '100%',
+              aspectRatio: '16/9',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              backgroundColor: '#252525',
+              color: '#555',
+              fontSize: '0.875rem',
+            }}
+          >
+            Project Preview
+          </div>
+        )}
       </div>
       <h3 className="clickable-card-header">
         {project.title} ({project.year})
