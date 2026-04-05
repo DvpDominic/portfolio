@@ -1,0 +1,150 @@
+/* Header / Navigation */
+.header {
+  margin-bottom: 32px;
+}
+
+.header-name {
+  color: #e2f0f0;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 0 0 4px;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .header-name {
+    font-size: 3rem;
+  }
+}
+
+.header-title {
+  color: #e29ba7;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin: 0 0 16px;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .header-title {
+    font-size: 1.5rem;
+  }
+}
+
+.header-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-links .link {
+  color: #e29ba7;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.2s ease;
+}
+
+.header-links .link:hover {
+  color: #f7e6e9;
+}
+
+.header-links .link svg {
+  font-size: 1.25rem;
+}
+
+.header-links .link.resume {
+  color: #e29ba7;
+}
+
+.header-links .link.resume:hover {
+  color: #f7e6e9;
+}
+
+/* About section */
+.about-information {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+  .about-information {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+  }
+}
+
+.profile-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+  .profile-image {
+    width: 248px;
+    height: 248px;
+  }
+}
+
+.about-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .about-text {
+    font-size: 1.125rem;
+  }
+}
+
+.about-text strong {
+  color: #e29ba7;
+}
+
+/* About Me section (bottom of page) */
+.about-me-section {
+  margin-top: 32px;
+  padding-top: 32px;
+}
+
+.about-me-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .about-me-content {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+  }
+}
+
+.about-me-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .about-me-text {
+    font-size: 1.125rem;
+  }
+}
+
+.about-me-text strong {
+  color: #e29ba7;
+}

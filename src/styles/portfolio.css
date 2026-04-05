@@ -1,0 +1,69 @@
+/* Portfolio detail page specific styles */
+.portfolio-detail {
+  max-width: 900px;
+}
+
+.portfolio-detail .part {
+  margin-bottom: 32px;
+}
+
+.portfolio-detail .part p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .portfolio-detail .part p {
+    font-size: 1.125rem;
+  }
+}
+
+/* About & Project Info side by side */
+.about-and-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+@media (min-width: 768px) {
+  .about-and-info {
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .about-and-info > .part:first-child {
+    flex: 2;
+  }
+
+  .about-and-info > .part:last-child {
+    flex: 1;
+  }
+}
+
+.project-info {
+  margin: 16px 0 32px;
+}
+
+.project-info p {
+  margin: 4px 0;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .project-info p {
+    font-size: 1.125rem;
+  }
+}
+
+.project-info strong {
+  color: #e29ba7;
+}
+
+.portfolio-banner {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 5px;
+  background-color: #252525;
+  margin-bottom: 16px;
+}
