@@ -3,7 +3,7 @@ const projects = [
     id: 'project-1',
     video: '/videos/project1.mp4',
     title: 'Upside down',
-    year: '2026',
+    year: '2025',
     role: 'Technical Artist',
     engine: 'Unreal Engine 5',
     shortDescription:
@@ -12,7 +12,7 @@ const projects = [
       'This is a detailed description of your first project. Explain what the project is about, what problem it solves, and what technologies you used.',
       'Add more paragraphs to describe different aspects of the project.',
     ],
-    tags: ['Unreal Engine'],
+    tags: ['Unreal Engine', 'Level building'],
     sections: [
       {
         title: 'Introduction',
@@ -36,16 +36,16 @@ const projects = [
   },
   {
     id: 'project-2',
-    title: 'Project Two',
-    year: '2024',
-    role: 'Frontend Developer',
-    engine: 'React / TypeScript',
+    title: 'ShadowSplit',
+    year: '2026',
+    role: 'Game Programmer, Technical Artist',
+    engine: 'Godot / GDScript',
     shortDescription:
-      'A brief description of your second project. Replace this with actual project details.',
+      'Complete the level, time travel and complete the level again by beating your shadow.',
     description: [
       'This is a detailed description of your second project.',
     ],
-    tags: ['TypeScript', 'React', 'Tailwind CSS'],
+    tags: ['Godot', 'GDScript', 'Shaders'],
     sections: [
       {
         title: 'Introduction',
