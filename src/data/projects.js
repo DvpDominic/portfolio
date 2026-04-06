@@ -7,35 +7,16 @@ const projects = [
     role: 'Technical Artist',
     engine: 'Unreal Engine 5',
     shortDescription:
-      'A brief description of your first project. Replace this with actual project details.',
+      'A post apocalyptic world and turned it into "Upside Down" from Stranger Things using lighting, weather, fog, materials.',
     description: [
-      'This is a detailed description of your first project. Explain what the project is about, what problem it solves, and what technologies you used.',
-      'Add more paragraphs to describe different aspects of the project.',
+      'I did a little experiment with Unreal Engine 5 by making a post-apocalyptic game level and turning it into "Upside Down" from Stranger Things. Made it look unsettling using lighting, fog and different materials.',
+      'I am also trying to create a lightweight UE5 plugin for weather system using C++, focused on runtime control over sky/lighting, volumetric clouds, fog and wind with data-driven presets and blend able transitions, open to adding editor tooling later for easier preview and tuning.',
     ],
     tags: ['Unreal Engine', 'Level building'],
-    sections: [
-      {
-        title: 'Introduction',
-        content: [
-          'Describe the introduction and motivation behind this project. What inspired you to build it? What challenges did you face?',
-        ],
-      },
-      {
-        title: 'Technical Details',
-        content: [
-          'Explain the technical implementation details. What architecture did you use? What were the key technical decisions?',
-        ],
-      },
-      {
-        title: 'What I Learned',
-        content: [
-          'Reflect on what you learned during this project. What skills did you develop? What would you do differently?',
-        ],
-      },
-    ],
   },
   {
     id: 'project-2',
+    video: '/videos/project2.mp4',
     title: 'ShadowSplit',
     year: '2026',
     role: 'Game Programmer, Technical Artist',
@@ -43,62 +24,25 @@ const projects = [
     shortDescription:
       'Complete the level, time travel and complete the level again by beating your shadow.',
     description: [
-      'This is a detailed description of your second project.',
+      'The goal is simple: reach the portal. But in order to complete the level, you need to do it twice. In the second run, the portal will be spawning your clones that travel back in time and repeat your past actions.',
     ],
     tags: ['Godot', 'GDScript', 'Shaders'],
-    sections: [
-      {
-        title: 'Introduction',
-        content: [
-          'Describe the introduction and motivation behind this project.',
-        ],
-      },
-      {
-        title: 'Key Features',
-        content: [
-          'Highlight the key features and functionalities you implemented.',
-        ],
-      },
-      {
-        title: 'What I Learned',
-        content: [
-          'Share your learnings and growth from working on this project.',
-        ],
-      },
-    ],
   },
   {
     id: 'project-3',
-    title: 'Project Three',
-    year: '2024',
-    role: 'Backend Developer',
-    engine: 'Python / Django',
+    video: '/videos/project3.mp4',
+    title: 'EA Sports FC25, FC24, FIFA23, Ubisoft R6 ',
+    year: '2022-2024',
+    role: 'Technical Artist, Tools programmer',
+    engine: 'EA Frostbite, Ubisoft Anvil, Maya/3DSMax',
     shortDescription:
-      'A brief description of your third project. Replace this with actual project details.',
+      'AAA Games I have worked on as a Technical Artist and Tools Programmer during my tenure at Technicolor games.',
     description: [
-      'This is a detailed description of your third project.',
+      'Involved in Ubisoft-Rainbow Six Extraction, FIFA-23,24,25 & other AAA projects',
+      'Accountable for development & testing custom tools and features for graphics softwares & game engines',
+      'Coordinated with Technical Directors to support artists and programmers on daily work',
     ],
-    tags: ['Python', 'Django', 'PostgreSQL'],
-    sections: [
-      {
-        title: 'Introduction',
-        content: [
-          'Describe the introduction and motivation behind this project.',
-        ],
-      },
-      {
-        title: 'Architecture',
-        content: [
-          'Explain the system architecture and design patterns used.',
-        ],
-      },
-      {
-        title: 'What I Learned',
-        content: [
-          'Reflect on your experience building this project.',
-        ],
-      },
-    ],
+    tags: ['Python', 'C++', 'Maya/3DSMax'],
   },
   {
     id: 'project-4',
@@ -112,26 +56,6 @@ const projects = [
       'This is a detailed description of your fourth project.',
     ],
     tags: ['Next.js', 'Prisma', 'Vercel'],
-    sections: [
-      {
-        title: 'Introduction',
-        content: [
-          'Describe the introduction and motivation behind this project.',
-        ],
-      },
-      {
-        title: 'Implementation',
-        content: [
-          'Walk through the key implementation details.',
-        ],
-      },
-      {
-        title: 'What I Learned',
-        content: [
-          'Share what this project taught you.',
-        ],
-      },
-    ],
   },
 ]
 
