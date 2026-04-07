@@ -57,6 +57,32 @@ const projects = [
     ],
     tags: ['Next.js', 'Prisma', 'Vercel'],
   },
+  {
+    id: 'project-5',
+    title: 'Project Five',
+    year: '2023',
+    role: 'Your Role',
+    engine: 'Engine / Stack',
+    shortDescription:
+      'A brief description of your fifth project. Replace this with actual project details.',
+    description: [
+      'This is a detailed description of your fifth project.',
+    ],
+    tags: ['Tag1', 'Tag2'],
+  },
+  {
+    id: 'project-6',
+    title: 'Project Six',
+    year: '2023',
+    role: 'Your Role',
+    engine: 'Engine / Stack',
+    shortDescription:
+      'A brief description of your sixth project. Replace this with actual project details.',
+    description: [
+      'This is a detailed description of your sixth project.',
+    ],
+    tags: ['Tag1', 'Tag2'],
+  },
 ]
 
 export default projects
