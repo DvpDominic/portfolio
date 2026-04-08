@@ -39,7 +39,7 @@ export default function Header() {
           <li>
             <a
               className="link resume"
-              href={profile.resumeFile}
+              href={`${import.meta.env.BASE_URL}${profile.resumeFile.replace(/^\//, '')}`}
               download={`${profile.name.replace(/\s+/g, '_')}_Resume.pdf`}
               title="Resume"
               aria-label={`${profile.name}'s resume`}

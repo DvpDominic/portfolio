@@ -1,7 +1,9 @@
+const base = import.meta.env.BASE_URL
+
 const projects = [
   {
     id: 'project-1',
-    video: '/videos/project1.mp4',
+    video: `${base}videos/project1.mp4`,
     title: 'Upside down',
     year: '2025',
     role: 'Technical Artist',
@@ -16,7 +18,7 @@ const projects = [
   },
   {
     id: 'project-2',
-    video: '/videos/project2.mp4',
+    video: `${base}videos/project2.mp4`,
     title: 'ShadowSplit',
     year: '2026',
     role: 'Game Programmer, Technical Artist',
@@ -30,7 +32,7 @@ const projects = [
   },
   {
     id: 'project-3',
-    video: '/videos/project3.mp4',
+    video: `${base}videos/project3.mp4`,
     title: 'EA Sports FC25, FC24, FIFA23, Ubisoft R6 ',
     year: '2022-2024',
     role: 'Technical Artist, Tools programmer',
@@ -46,7 +48,7 @@ const projects = [
   },
   {
     id: 'project-4',
-    video: '/videos/project4.mp4',
+    video: `${base}videos/project4.mp4`,
     title: 'Subway surfers clone',
     year: '2025',
     role: 'Game Developer, Technical Artist',
@@ -60,7 +62,7 @@ const projects = [
   },
   {
     id: 'project-5',
-    video: '/videos/project5.mp4',
+    video: `${base}videos/project5.mp4`,
     title: 'Educational games',
     year: '2020-2021',
     role: 'Game Developer',
