@@ -46,29 +46,33 @@ const projects = [
   },
   {
     id: 'project-4',
-    title: 'Project Four',
-    year: '2023',
-    role: 'Full Stack Developer',
-    engine: 'Next.js',
+    video: '/videos/project5.mp4',
+    title: 'Subway surfers clone',
+    year: '2025',
+    role: 'Game Developer, Technical Artist',
+    engine: 'Unity / C#',
     shortDescription:
-      'A brief description of your fourth project. Replace this with actual project details.',
+      'Tried to make a clone of popular 3D endless runner game Subway Surfers.',
     description: [
-      'This is a detailed description of your fourth project.',
+      'Simlabs Physics Simulations : Physics Simulations Game which includes simulations like Ray Optics Simulation(Concave and Convex Lens, Reflection, Refraction), Projectile Simulation(Cannon Projectile), Pulley Simulation etc. This game allows us to visualize characteristics of the physics models.',
+      'Mr.Byte : Interactive use case based game which helps the player understand the concept of OSI. The player travels through 7 layers in a spaceship, solving challenges and shooting enemies along the way.'
     ],
-    tags: ['Next.js', 'Prisma', 'Vercel'],
+    tags: ['Unity', 'C#', 'Simulation'],
   },
   {
     id: 'project-5',
-    title: 'Project Five',
-    year: '2023',
-    role: 'Your Role',
-    engine: 'Engine / Stack',
+    video: '/videos/project5.mp4',
+    title: 'Educational games',
+    year: '2020-2021',
+    role: 'Game Developer',
+    engine: 'Unity / C#',
     shortDescription:
-      'A brief description of your fifth project. Replace this with actual project details.',
+      'Some of the educational/simulation games I made as a freelancer/intern.',
     description: [
-      'This is a detailed description of your fifth project.',
+      'Simlabs Physics Simulations : Physics Simulations Game which includes simulations like Ray Optics Simulation(Concave and Convex Lens, Reflection, Refraction), Projectile Simulation(Cannon Projectile), Pulley Simulation etc. This game allows us to visualize characteristics of the physics models.',
+      'Mr.Byte : Interactive use case based game which helps the player understand the concept of OSI. The player travels through 7 layers in a spaceship, solving challenges and shooting enemies along the way.'
     ],
-    tags: ['Tag1', 'Tag2'],
+    tags: ['Unity', 'C#', 'Simulation'],
   },
   {
     id: 'project-6',
