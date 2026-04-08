@@ -64,15 +64,6 @@ export default function Home() {
         ))}
       </ul>
 
-      {/* About Me Section */}
-      <section className="about-me-section">
-        <h2>About Me</h2>
-        <div className="about-me-text">
-          {profile.about.map((paragraph, i) => (
-            <p key={i} dangerouslySetInnerHTML={{ __html: paragraph }} />
-          ))}
-        </div>
-      </section>
     </div>
   )
 }

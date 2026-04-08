@@ -42,11 +42,11 @@ const projects = [
       'Accountable for development & testing custom tools and features for graphics softwares & game engines',
       'Coordinated with Technical Directors to support artists and programmers on daily work',
     ],
-    tags: ['Python', 'C++', 'Maya/3DSMax'],
+    tags: ['Python', 'C++', 'Maya/3DSMax', 'EA Frostbite', 'Ubisoft Anvil'],
   },
   {
     id: 'project-4',
-    video: '/videos/project5.mp4',
+    video: '/videos/project4.mp4',
     title: 'Subway surfers clone',
     year: '2025',
     role: 'Game Developer, Technical Artist',
@@ -54,8 +54,7 @@ const projects = [
     shortDescription:
       'Tried to make a clone of popular 3D endless runner game Subway Surfers.',
     description: [
-      'Simlabs Physics Simulations : Physics Simulations Game which includes simulations like Ray Optics Simulation(Concave and Convex Lens, Reflection, Refraction), Projectile Simulation(Cannon Projectile), Pulley Simulation etc. This game allows us to visualize characteristics of the physics models.',
-      'Mr.Byte : Interactive use case based game which helps the player understand the concept of OSI. The player travels through 7 layers in a spaceship, solving challenges and shooting enemies along the way.'
+      'I am still working on the project. Trying to create a clone of Subway Surfers in Unity. There are many things that need to be added and polished.'
     ],
     tags: ['Unity', 'C#', 'Simulation'],
   },
@@ -73,19 +72,6 @@ const projects = [
       'Mr.Byte : Interactive use case based game which helps the player understand the concept of OSI. The player travels through 7 layers in a spaceship, solving challenges and shooting enemies along the way.'
     ],
     tags: ['Unity', 'C#', 'Simulation'],
-  },
-  {
-    id: 'project-6',
-    title: 'Project Six',
-    year: '2023',
-    role: 'Your Role',
-    engine: 'Engine / Stack',
-    shortDescription:
-      'A brief description of your sixth project. Replace this with actual project details.',
-    description: [
-      'This is a detailed description of your sixth project.',
-    ],
-    tags: ['Tag1', 'Tag2'],
   },
 ]
 
